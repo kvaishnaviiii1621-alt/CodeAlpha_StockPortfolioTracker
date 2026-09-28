@@ -31,6 +31,3 @@ The program allows the user to enter stock names and quantities and calculates t
 4. Open the terminal.
 5. Run: python stock_portfolio.py
 6. Enter the stock name and quantity when prompted.
-
-```bash
-python stock_portfolio.py
