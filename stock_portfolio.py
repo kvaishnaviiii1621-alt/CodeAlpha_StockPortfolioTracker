@@ -20,20 +20,20 @@ while True:
         break
 
     if stock not in stock_prices:
-        print("❌ Stock not available. Please choose from the available stocks.")
+        print("Stock not available. Please choose from the available stocks.")
         continue
 
     try:
         quantity = int(input("Enter quantity: "))
 
         if quantity <= 0:
-            print("❌ Quantity must be greater than 0.")
+            print("Quantity must be greater than 0.")
             continue
 
         investment = stock_prices[stock] * quantity
         total_investment += investment
 
-        print("✅", stock, "investment value: $", investment)
+        print("done", stock, "investment value: $", investment)
 
     except ValueError:
         print("❌ Please enter a valid number for quantity.")
